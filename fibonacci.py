@@ -13,7 +13,7 @@ class fibonacci_number:
         n = 1
         while n < self.n_max:
             aux = self.n_current
-            self.n_current += self_n_ant
+            self.n_current += self.n_ant
             self.n_ant = aux
             n += 1
 
