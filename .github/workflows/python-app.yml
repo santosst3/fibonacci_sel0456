@@ -37,3 +37,6 @@ jobs:
     - name: Test with python
       run: |
         python fibonacci.py
+    - name: Test with pytest
+      run: |
+        pytest fibonacci.py
