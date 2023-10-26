@@ -28,7 +28,7 @@ class fibonacci_number:
     def calc_fibo_recursive(self,n):
         if n > 1:
             return self.calc_fibo_recursive(n-1) + self.calc_fibo_recursive(n-2)
-        return n+1
+        return n
 
 
 fib1 = fibonacci_number(10)
